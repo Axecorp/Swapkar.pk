@@ -1,0 +1,42 @@
+.policies{
+    padding: 0 20px;
+    .policies-container{
+        max-width: 1800px;
+        margin: 0 auto;
+        .policies-wrapper{
+            display: flex;
+            align-items: center;
+            background: #f9ede1;
+            .policy{
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:first-child{
+                    position: relative;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        height: 45%;
+                        right: 0;
+                        width: 1px;
+                        background: #000000;
+                    }
+                }
+                .policy-wrapper{
+                    padding: 20px 0 25px;
+                    .policy-title{
+                        h2{
+
+                        }
+                    }
+                    .subtext{
+                        p{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

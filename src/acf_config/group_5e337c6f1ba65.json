@@ -44,6 +44,37 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_64497a6e83c23": {
+                    "key": "layout_64497a6e83c23",
+                    "name": "policies",
+                    "label": "Policies",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64497a7483c24",
+                            "label": "field",
+                            "name": "field",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_644979c8ea471"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Block",
@@ -79,5 +110,5 @@
     ],
     "active": 1,
     "description": "Block Chooser for all content types that will have blocks.",
-    "modified": 1640180775
+    "modified": 1682537098
 }
