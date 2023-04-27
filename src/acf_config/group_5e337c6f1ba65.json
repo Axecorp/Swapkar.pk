@@ -45,18 +45,6 @@
                     "min": "",
                     "max": ""
                 },
-<<<<<<< Updated upstream
-                "layout_64497a6e83c23": {
-                    "key": "layout_64497a6e83c23",
-                    "name": "policies",
-                    "label": "Policies",
-                    "display": "block",
-                    "sub_fields": [
-                        {
-                            "key": "field_64497a7483c24",
-                            "label": "field",
-                            "name": "field",
-=======
                 "layout_6449bd816c152": {
                     "key": "layout_6449bd816c152",
                     "name": "top_categories",
@@ -67,7 +55,6 @@
                             "key": "field_6449bd8c6c153",
                             "label": "fields",
                             "name": "fields",
->>>>>>> Stashed changes
                             "type": "clone",
                             "instructions": "",
                             "required": 0,
@@ -78,11 +65,7 @@
                                 "id": ""
                             },
                             "clone": [
-<<<<<<< Updated upstream
-                                "group_644979c8ea471"
-=======
                                 "group_6449bd035bdd9"
->>>>>>> Stashed changes
                             ],
                             "display": "seamless",
                             "layout": "block",
@@ -127,10 +110,5 @@
     ],
     "active": 1,
     "description": "Block Chooser for all content types that will have blocks.",
-    "modified": 1640180775
-<<<<<<< Updated upstream
-    "modified": 1682537098
-=======
     "modified": 1682554274
->>>>>>> Stashed changes
 }

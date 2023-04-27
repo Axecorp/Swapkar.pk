@@ -20,7 +20,10 @@
             case 'fullwidth_text':
               include 'blocks/fullwidth_text.php';
               break;
-            
+            case 'policies':
+              include 'blocks/policies.php';
+              break;
+  
           }
         }
       }
