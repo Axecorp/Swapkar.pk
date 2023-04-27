@@ -23,6 +23,9 @@
             case 'policies':
               include 'blocks/policies.php';
               break;
+            case 'top_categories':
+              include 'blocks/top_categories.php';
+              break;
   
           }
         }
