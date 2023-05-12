@@ -31,7 +31,11 @@
         if(count($link["dropdown_choice"])>0){?>
             <div class="dropdown">
                 <div class="inner">
-                    <?php foreach($categories_list as $cat){?>
+                    <?php foreach($categories_list as $cat){
+                            if($cat->name == "Uncategorized"){
+                                continue;
+                            }
+                        ?>
                         <a href="" class="brand"><?php echo $cat->name?></a>
                     <?php } ?>
                 </div>

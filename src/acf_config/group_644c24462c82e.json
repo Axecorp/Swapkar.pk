@@ -1,0 +1,73 @@
+{
+    "key": "group_644c24462c82e",
+    "title": "Trending Brands",
+    "fields": [
+        {
+            "key": "field_644c244da4061",
+            "label": "Heading",
+            "name": "heading",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_644c2456a4062",
+            "label": "Brands to Include",
+            "name": "brands_to_include",
+            "type": "checkbox",
+            "instructions": "Select at least 3 Brands to include.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "brand_1": "Brand 1",
+                "brand_2": "Brand 2",
+                "brand_3": "Brand 3",
+                "brand_4": "Brand 4",
+                "brand_5": "Brand 5",
+                "brand_6": "Brand 6",
+                "brand_7": "Brand 7",
+                "brand_8": "Brand 8"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1682713548
+}

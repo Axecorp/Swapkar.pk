@@ -26,7 +26,27 @@
             case 'top_categories':
               include 'blocks/top_categories.php';
               break;
-  
+            case 'product_tabs':
+              include 'blocks/product_tabs.php';
+              break;
+            case 'product_slider':
+              include 'blocks/product_slider.php';
+              break;
+            case 'favourite_brands':
+              include 'blocks/favourite_brands.php';
+              break;
+            case 'banner':
+              include 'blocks/banner.php';
+              break;
+            case 'features':
+              include 'blocks/features.php';
+              break;
+            case 'trending_brands':
+              include 'blocks/trending_brands.php';
+              break;
+            case 'contact':
+              include 'blocks/contact.php';
+              break;
           }
         }
       }

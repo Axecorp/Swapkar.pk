@@ -20,6 +20,13 @@
                 display: flex;
                 align-items: center;
                 margin-bottom: 10px;
+                transition: 200ms ease;
+                &:hover{
+                    transition: 200ms ease;
+                    background: #ededed; 
+                    transform: translateY(-3px);
+                    box-shadow: 0 0 10px -7px;
+                }
                 .icon{
                     width: 110px;
                     display: flex;

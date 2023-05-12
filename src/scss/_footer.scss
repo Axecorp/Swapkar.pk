@@ -1,0 +1,102 @@
+.footer{
+    background-color: #F7F7F7;
+    .inner{
+        padding: 0 30px;
+        max-width: 1800px;
+        margin: 0 auto;
+        padding: 62px 0 45px;
+        .main{
+            color:  #555555;
+            display: flex;
+            a{
+                color:  #555555;
+            }
+            .left{
+                margin: 0 30px;
+                margin-left: 0;
+                .address{
+                    margin-bottom: 15px;
+                    width: 70%;
+                    text-transform: uppercase;
+                }
+                .phone{
+                    margin-bottom: 5px;
+                }
+            }
+            .mid{
+                display: flex;
+                margin: 0 30px;
+                .link-group{
+                    margin-right: 150px;
+                    text-align: center;
+                    .title{
+                        color: black;
+                        font-weight: 500px;
+                        margin-bottom: 15px;
+                    }
+                    .link{
+                        display: block;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+            .right{
+                margin: 0 30px;
+                margin-right: 0;
+                .socials{
+                    display: flex;
+                    grid-gap: 20px;
+                    .social{
+                        width: 20px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .gform_title{
+                    margin-bottom: 15px;
+                    color: black;
+                }
+                .gform_heading{
+                    padding-bottom: 15px;
+                }
+                form{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-bottom: 15px;
+                    grid-gap: 10px;
+
+                    .gform_body{
+                        width: 100%;
+                        margin-bottom: 0;
+                        input{
+                            padding: 15px 20px;
+                            font-size: 20px;
+                        }
+                    }
+                    .gform_footer{
+                        padding: 0;
+                        margin: 0;
+                        input{
+                            background-color: black;
+                            color: white;
+                            font-weight: 600;
+                            text-transform: uppercase;
+                            padding: 15px 20px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        background-color: white;
+        padding: 30px;
+        .inner{
+            max-width: 1800px;
+            margin: 0 auto;
+            padding: 30px 0;
+        }
+    }
+}

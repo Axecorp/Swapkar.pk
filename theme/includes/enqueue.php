@@ -11,6 +11,18 @@
 				"version" => '4.7.0_defer'
 			],
 			[
+				"name" => 'slick-theme.css', 
+				"type" => 'css',
+				"path" => 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css',
+				"version" => '1.8.1'
+			],
+			[
+				"name" => 'slick.css', 
+				"type" => 'css',
+				"path" => 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css',
+				"version" => '1.8.1'
+			],
+			[
 				"name" => 'style.css', 
 				"type" => 'css',
 				"path" => $templatedir . '/style.css',
@@ -22,6 +34,13 @@
 				"type" => 'js',
 				"path" => 'https://code.jquery.com/jquery-3.3.1.min.js',
 				"version" => '3.3.1',
+				"loadInFooter" => false
+			],
+			[
+				"name" => 'slick.js', 
+				"type" => 'js',
+				"path" => 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js',
+				"version" => '1.8.1',
 				"loadInFooter" => false
 			],
 			[

@@ -1,0 +1,66 @@
+.contact{
+    padding: 0 30px;
+    .inner{
+        padding-top: 100px;
+        max-width: 1800px;
+        margin: 0 auto;
+        display: flex;
+        padding-bottom: 50px;
+        .form{
+            width: 70%;
+            #gform_submit_button_2{
+                font-family: "jost";
+                padding: 15px 20px;
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: 600;
+                background-color: black;
+                color: white;
+            }
+            #input_2_1_3_container{
+                label{
+                    display: none;
+                }
+            }
+            h2{
+                text-transform: uppercase;
+                letter-spacing: .05em;
+                font-weight: 700;
+                padding-bottom: 25px;
+                margin-bottom: 25px;
+                position: relative;
+                &::after{
+                    position: absolute;
+                    content: "";
+                    bottom: 0;
+                    width: 50px;
+                    height: 3px;
+                    background-color: black;
+                    left: 0;
+                }
+            }
+            form{
+                width: 60%;
+            }
+        }
+        .info{
+            width: 30%;
+            padding-top: 100px;
+            padding-left: 100px;
+            a{
+                color: black;
+            }
+            h4{
+                text-transform: uppercase;
+                letter-spacing: .05em;
+                font-weight: 700;
+                margin-bottom: 22px;
+                font-size: 18px;
+            }
+            p{
+                margin-bottom: 24px;
+                line-height: 28px;
+            }
+        }
+    }
+}

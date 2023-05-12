@@ -12,6 +12,7 @@ Version: THEME_VERSION
 @import 'global'; 
 @import 'footer';
 @import 'header';
+@import 'shop';
 
 // Navigation
 
@@ -22,6 +23,13 @@ Version: THEME_VERSION
 // Blocks
 @import './components/policies';
 @import './components/top-categories';
+@import './components/product-tabs';
+@import './components/product-slider';
+@import './components/favourite-brands';
+@import './components/banner';
+@import './components/features';
+@import './components/trending-brands';
+@import './components/contact';
 
 // Shortcodes
 
